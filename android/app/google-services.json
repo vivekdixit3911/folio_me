@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "3567269432",
+    "project_id": "vivekdixit-f5187",
+    "storage_bucket": "vivekdixit-f5187.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3567269432:android:73a938b3016fef138798cd",
+        "android_client_info": {
+          "package_name": "com.example.viv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs3xGPjKruIPVP0zyoF6gRdloPne_9LI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

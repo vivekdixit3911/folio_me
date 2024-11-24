@@ -1,0 +1,83 @@
+name: viv
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0-180.3.beta <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.1.1
+  layout: ^1.0.5
+  url_strategy: ^0.2.0
+  intl: ^0.19.0
+  locator: ^0.0.0-dev.2
+  cloud_firestore: ^5.0.2
+  logger: ^2.3.0
+  type_text: ^1.0.5
+  flutter_svg: ^2.0.10+1
+  atlas_icons: ^0.0.12
+  visibility_detector: ^0.4.0+2
+  font_awesome_flutter: ^10.7.0
+  url_launcher: ^6.3.0
+  flutter_staggered_animations: ^1.1.1
+  pretty_animated_buttons: ^0.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/personal/
+    - assets/images/van_gogh/
+    - assets/images/projects/
+    - assets/images/certificates/
+    - assets/images/tools/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/poppins/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/poppins/Poppins-ExtraLight.ttf
+          weight: 100
+        - asset: assets/fonts/poppins/Poppins-Light.ttf
+          weight: 200
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+          weight: 400
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/poppins/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/poppins/Poppins-Black.ttf
+          weight: 900
+    - family: ShantellSans
+      fonts:
+        - asset: assets/fonts/shantell_sans/ShantellSans-Regular.ttf
+        - asset: assets/fonts/shantell_sans/ShantellSans-Italic.ttf
+          style: italic
+        - asset: assets/fonts/shantell_sans/ShantellSans-Light.ttf
+          weight: 100
+        - asset: assets/fonts/shantell_sans/ShantellSans-Light.ttf
+          weight: 200
+        - asset: assets/fonts/shantell_sans/ShantellSans-Medium.ttf
+          weight: 400
+        - asset: assets/fonts/shantell_sans/ShantellSans-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/shantell_sans/ShantellSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/shantell_sans/ShantellSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/shantell_sans/ShantellSans-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/shantell_sans/ShantellSans-ExtraBold.ttf
+          weight: 900
